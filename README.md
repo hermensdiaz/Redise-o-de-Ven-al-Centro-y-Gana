@@ -1,5 +1,5 @@
-# Rediseño de la aplicación web de Ven al Centro y Gana de CANACO SERVYTUR
-# Departamento de Orientación y Consejo Educativo
+# Rediseño de la aplicación web de Ven al Centro y Gana
+# CANACO SERVYTUR
 Proyecto Integrador de Fundamentos de Ingeniería de Software - Resideño de la aplicación web de Ven al Centro y Gana de CANACO SERVYTUR
 
 El rediseño del registro de participantes del sistema desarrollado con el fin de que sea capaz de ofrecer una experiencia de usuario más intuitiva, facilitando el proceso de registro por medio de una interfaz mejor estructurada e instrucciones más precisas para la orientación del usuario a través del flujo. 
