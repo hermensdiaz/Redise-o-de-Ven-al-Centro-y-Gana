@@ -26,3 +26,10 @@ Para garantizar la colaboración fluida, la trazabilidad de los artefactos y el 
 | **GitHub Desktop** | Cliente Gráfico de Git | Sincronización visual y ágil entre el entorno local de trabajo y el repositorio remoto de la organización. |
 | **DevTools (Navegador)** | Pruebas y Auditoría | Emulación de dispositivos móviles (360 px a 1024 px) y validación del tiempo de respuesta y carga del catálogo de sucursales. |
 | **WebAIM Contrast Checker** | Evaluación UX/UI | Auditoría de accesibilidad para verificar las relaciones de contraste cromático (WCAG 2.1 AA) en la paleta oficial de la campaña. |
+
+![Captura de la reunión](./imagenes/0bf01db3-fc5c-4751-80f9-6c7dc2e19141.jpg)
+
+![Captura de la reunión](./imagenes/0bf61c79-fe60-4303-ba5a-5abe9ef565e9.jpg)
+
+![Captura de la reunión](./imagenes/5c96ad14-02ad-42b6-a65a-40dc6e50f881.jpg)
+
