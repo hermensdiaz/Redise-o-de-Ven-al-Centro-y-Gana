@@ -8,7 +8,7 @@ Las siguientes competencias reflejan las habilidades transversales fortalecidas 
 Capacidad colectiva para colaborar de manera articulada entre todos los integrantes, distribuyendo de forma equitativa el análisis de los documentos de especificación técnica, la estructuración de requisitos y los hallazgos de usabilidad, logrando alinearnos bajo un mismo objetivo de diseño y desarrollo.
 
 ## 2. Capacidad de Análisis y Síntesis Grupal
-Habilidad del equipo para procesar notas de campo e información recopilada en pruebas con usuarios reales (observaciones de usabilidad, errores en la captura de datos, demoras al seleccionar sucursales), sintetizándolas en especificaciones técnicas de software claras, estructuradas y formalizadas.
+Habilidad del equipo para procesar notas de campo e información recopilada en pruebas con usuarios reales (observaciones de usabilidad, errores en la captura de datos, demoras al seleccionar sucursales), sintetizándolas en especificaciones técnicas de software estructuradas y formalizadas.
 
 ## 3. Resolución de Problemas con Enfoque en el Usuario
 Capacidad conjunta para identificar barreras tecnológicas y generacionales en los concursantes (como adultos mayores o participantes con dispositivos de baja resolución) y proponer, como equipo, soluciones funcionales e interfaces accesibles que eliminen la frustración durante el flujo del concurso.
