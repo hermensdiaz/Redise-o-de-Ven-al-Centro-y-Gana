@@ -1,0 +1,1 @@
+redactar después de la primera sesión
