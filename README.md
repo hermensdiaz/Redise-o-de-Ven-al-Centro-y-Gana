@@ -139,4 +139,3 @@ Los concursantes de la dinámica **Ven al Centro y Gana** de CANACO SERVYTUR tie
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFB700&height=100&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
-## colaboradora: Alessandra yam 
