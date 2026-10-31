@@ -36,23 +36,17 @@ Se construyó una biblioteca de componentes reutilizables con variantes, para qu
 
 Además se definieron **variables de color y estilos de texto** (tokens). Están documentados en la [guía de diseño](design-guide.md).
 
-### 2. Pantallas del flujo
-Se diseñaron **12 pantallas principales y 3 estados adicionales**, que cubren desde la pantalla de inicio hasta la confirmación de la participación:
+### 2. Pantallas del flujo (versión 2)
+A partir de los requisitos versión 2.0 (RF-001 a RF-021 y RNF-001 a RNF-012), el diseño se amplió a **17 pantallas**, organizadas en las 4 etapas del flujo:
 
-1. Inicio
-2. Ingreso con teléfono
-3. Teléfono no registrado (diálogo)
-4. Registro de nuevo participante
-5. Datos de la compra (más 3 estados: selector desplegado, errores de validación y una iteración previa)
-6. Trivia – instrucciones
-7. Trivia – pregunta 1
-8. Trivia – pregunta 2
-9. Trivia – pregunta 3
-10. Participación confirmada
-11. Mejor suerte la próxima
-12. Capa extra (bases, avisos de privacidad y sucursales)
+| Etapa | Pantallas |
+|---|---|
+| 1. Inicio e identificación | 01 · Inicio, 02 · Ingreso con teléfono, 02b · Teléfono con error, 03 · Número no registrado, 03b · Usuario ya registrado, Diálogo · Salir del registro |
+| 2. Registro de datos | 04 · Registro de nuevo participante, 04b · Registro con errores |
+| 3. Datos de la compra | 05 · Datos de la compra, 05b · Elegir sucursal, 05c · Compra con errores, 05d · Compra completa (foto tomada) |
+| 4. Trivia y resultado | 06 · Instrucciones, 07 · Pregunta 1, 09 · Pregunta 3, 10 · Respuestas correctas, 10b · Respuestas incorrectas |
 
-El detalle de cada pantalla y su correspondencia con los requisitos está en **[screens.md](screens.md)**.
+El detalle de cada pantalla, su correspondencia con los requisitos y la comparación con la versión 1 están en **[screens.md](screens.md)**.
 
 ### 3. Guía de diseño
 Se documentaron los fundamentos visuales del rediseño: color, tipografía, espaciado, componentes, accesibilidad y redacción. Ver **[design-guide.md](design-guide.md)**.
@@ -66,7 +60,5 @@ Se documentaron los fundamentos visuales del rediseño: color, tipografía, espa
 | [`README.md`](README.md) | Este documento: enlace al diseño y resumen del trabajo |
 | [`screens.md`](screens.md) | Inventario de pantallas, flujo de navegación y correspondencia con RF/HU |
 | [`design-guide.md`](design-guide.md) | Guía de diseño (tokens, componentes, accesibilidad, UX writing) |
-| [`components.png`](components.png) | Captura de la biblioteca de componentes |
-| [`screens/`](screens) | Capturas de las pantallas exportadas desde Figma |
-
-> **Nota:** las capturas de las pantallas 08 a 12 aún no están en `screens/`. Para agregarlas, en Figma selecciona el frame, ve a **Export → PNG** y guárdalo con el nombre indicado en [screens.md](screens.md).
+| [`components.png`](components.png) | Captura de la biblioteca de componentes (versión 1) |
+| [`screens/`](screens) | Capturas de las 17 pantallas de la versión 2, exportadas desde Figma |
