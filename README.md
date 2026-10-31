@@ -105,6 +105,7 @@ Los concursantes de la dinámica **Ven al Centro y Gana** de CANACO SERVYTUR tie
 | 🟠 | [**Propuesta**](docs/propuesta.md) |
 | 🟡 | [**Requisitos funcionales**](docs/requirements/functional) |
 | 🟠 | [**Requisitos no funcionales**](docs/requirements/non-functional) |
+| 🟡 | [**Diseño (Figma, pantallas y guía de diseño)**](docs/design) |
 
 </div>
 
