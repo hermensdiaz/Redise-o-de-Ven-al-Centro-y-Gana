@@ -1,146 +1,161 @@
-<div align="center">
+# Ven al Centro y Gana — Rediseño del registro de participantes
+
+Rediseño de la experiencia de usuario del registro de participantes de la aplicación web [Ven al Centro y Gana](https://venalcentroygana.com/), una dinámica de **CANACO SERVYTUR Mérida** para impulsar las compras en el centro de la ciudad.
+
+Proyecto integrador de la materia **Fundamentos de Ingeniería de Software**.
+
+## Contenido
+
+- [Contexto](#contexto)
+- [Problema](#problema)
+- [Solución propuesta](#solución-propuesta)
+- [Alcance](#alcance)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Documentación](#documentación)
+- [Estructura del repositorio](#estructura-del-repositorio)
+- [Flujo de trabajo](#flujo-de-trabajo)
+- [Equipo](#equipo)
+- [Licencia](#licencia)
+
+## Contexto
+
+*Ven al Centro y Gana* es una dinámica en la que los clientes registran sus compras de $200 o más en comercios participantes del centro de Mérida y responden una trivia para entrar al sorteo de premios. El registro se hace desde una aplicación web, a la que se accede por URL o código QR.
+
+## Problema
+
+En la prueba de campo, los concursantes tuvieron dificultades para usar la aplicación actual:
+
+- Personas de 60 a 70 años no encontraban el botón para comenzar el registro.
+- El formulario de datos personales no era intuitivo, sobre todo para personas mayores de 50 años.
+- Hubo demoras al seleccionar la sucursal de compra y fallas al capturar la foto del ticket.
+- En celulares pequeños, los toques accidentales obligaban a reiniciar el registro.
+
+Estas barreras hacen que algunos clientes desistan de participar antes de terminar.
+
+## Solución propuesta
+
+Rediseñar el flujo de registro de participantes con una interfaz mejor estructurada, instrucciones más claras y validaciones que orienten al concursante paso a paso, sin modificar la base de datos ni el backend del sistema actual.
+
+## Alcance
+
+El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
+
+| Etapa | Pantallas |
+|---|---|
+| 1. Registro | Inicio, ingreso con número telefónico, aviso de número no registrado, bienvenida de usuario registrado, registro de datos personales |
+| 2. Datos de la compra | Selección de sucursal con buscador, monto de la compra, foto del ticket con vista previa |
+| 3. Trivia | Instrucciones y 3 preguntas de opción múltiple |
+| 4. Resultado | Participación confirmada o respuestas incorrectas |
+
+**Fuera del alcance:** el panel de administración, el backend y la base de datos.
+
+## Estado del proyecto
+
+**Segunda entrega:** definición de requisitos (versión 2.0) y diseño de interfaces.
+
+| Entregable | Estado |
+|---|---|
+| Requisitos funcionales (RF-001 a RF-021) | Versión 2.0 |
+| Requisitos no funcionales (RNF-001 a RNF-012) | Versión 2.0 |
+| Historias de usuario (HU-001 a HU-021) | Versión 2.0 |
+| Diagrama de casos de uso | Versión 2.0 |
+| Prototipo de interfaces en Figma | Versión 2.0 |
+| Validación del diseño con el cliente | Pendiente |
+| Implementación | No iniciada |
+
+## Documentación
+
+| Documento | Descripción |
+|---|---|
+| [Propuesta](docs/propuesta.md) | Problemática, propuesta de solución, usuarios y alcance |
+| [Requisitos funcionales](docs/requirements/functional) | RF-001 a RF-021 |
+| [Requisitos no funcionales](docs/requirements/non-functional) | RNF-001 a RNF-012 |
+| [Priorización de requisitos](docs/requirements/priorizacion-requisitos.md) | Priorización MoSCoW y orden de implementación |
+| [Control de cambios de requisitos](docs/requirements/cambios-segunda-entrega.md) | Requisitos nuevos, modificados y discrepancias de la segunda entrega |
+| [Historias de usuario](docs/user-stories) | HU-001 a HU-021, con criterios de aceptación |
+| [Diagrama de casos de uso](docs/UML) | Versión 2.0 (PlantUML) y versión 1.0 (PDF) |
+| [Diseño de interfaces](docs/design) | Enlace al prototipo en Figma, pantallas y guía de diseño |
+| [Proceso](docs/process) | Metodología, evidencias y métrica de contribución individual |
+| [Competencias](docs/competencies) | Competencias genéricas y específicas |
+| [Referencias](docs/bibliography/Referencias.md) | Bibliografía consultada |
+| [Video](docs/video) | Enlace al video de la entrega |
+
+## Estructura del repositorio
+
+```
+.
+├── .github/
+│   ├── ISSUE_TEMPLATE/       # Plantilla de issues para tareas
+│   ├── workflows/            # Revisión automática de pull requests
+│   └── pull_request_template.md
+├── docs/
+│   ├── UML/                  # Diagrama de casos de uso
+│   ├── bibliography/         # Referencias
+│   ├── competencies/         # Competencias genéricas y específicas
+│   ├── design/               # Prototipo, pantallas y guía de diseño
+│   ├── process/              # Metodología, evidencias y métricas
+│   ├── requirements/
+│   │   ├── functional/       # RF-001 a RF-021
+│   │   └── non-functional/   # RNF-001 a RNF-012
+│   ├── user-stories/         # HU-001 a HU-021
+│   ├── video/                # Enlace al video
+│   └── propuesta.md
+├── process/
+│   ├── agreements/           # Acuerdos del equipo (ACU-###)
+│   ├── logs/                 # Bitácoras de reuniones
+│   └── tasks/                # Tareas activas y completadas (TAR-###)
+├── templates/                # Plantillas de acuerdo, bitácora y tarea
+└── README.md
+```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF6700&height=120&section=header&text=Ven%20al%20Centro%20y%20Gana&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=55" width="100%"/>
+## Flujo de trabajo
 
-<br>
+### Ramas
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=2500&pause=1000&color=FF6700&center=true&vCenter=true&repeat=true&width=700&lines=Ven+al+Centro+y+Gana" alt="Ven al Centro y Gana"/>
+| Rama | Uso |
+|---|---|
+| `main` | Versión estable entregada |
+| `segunda-entrega` | Trabajo de la segunda entrega |
 
-<br>
+Los cambios se integran a `main` mediante pull request. El workflow de GitHub Actions revisa que no queden marcadores de conflicto sin resolver.
 
-# 🟠 Ven al Centro y Gana
+### Convención de commits
 
-### CANACO SERVYTUR
+Se usa [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/):
 
-<img src="https://img.shields.io/badge/CANACO%20SERVYTUR-FF6700?style=for-the-badge&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/PROYECTO-FF9600?style=for-the-badge&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/INGENIERÍA%20DE%20SOFTWARE-FFB700?style=for-the-badge&logoColor=FFFFFF" />
+```
+<tipo>(<alcance opcional>): <descripción en minúsculas>
+```
 
-</div>
+| Tipo | Uso |
+|---|---|
+| `feat` | Nueva funcionalidad o nuevo artefacto |
+| `fix` | Corrección de un error |
+| `docs` | Cambios en la documentación |
+| `refactor` | Reorganización sin cambio de contenido |
+| `chore` | Mantenimiento (configuración, plantillas, limpieza) |
 
----
+Ejemplo: `docs(requirements): agregar priorización de requisitos con MoSCoW`
 
-<div align="center">
+### Tareas y reuniones
 
-## 🟠 Proyecto Integrador de Fundamentos de Ingeniería de Software
+- Cada tarea se registra como issue con la [plantilla de tarea](.github/ISSUE_TEMPLATE/tarea.md), con responsable y fecha límite.
+- Los acuerdos y las bitácoras de reunión se documentan en `process/`, con las plantillas de `templates/`.
 
-</div>
+## Equipo
 
-El rediseño del registro de participantes del sistema desarrollado con el fin de que sea capaz de ofrecer una experiencia de usuario más intuitiva, facilitando el proceso de registro por medio de una interfaz mejor estructurada e instrucciones más precisas para la orientación del usuario a través del flujo.
+| Integrante | Rol |
+|---|---|
+| Hermen Steven Diaz Euan | Líder del proyecto |
+| Jacqueline Alessandra Ac Yam | Integrante |
+| Adriana Esmeralda Arguelles Pool | Integrante |
+| Erick Eduardo Bolaños Gonzáles | Integrante |
+| Manuel Emiliano Canche Pacheco | Integrante |
+| Andrew Abimael Gonzalez Kantun | Integrante |
+| Eduardo Alberto Peniche Moreno | Integrante |
 
----
+**Cliente:** CANACO SERVYTUR Mérida.
 
-<div align="center">
+## Licencia
 
-# 🟠 Problema
-
-</div>
-
-Los concursantes de la dinámica **Ven al Centro y Gana** de CANACO SERVYTUR tienen dificultades para utilizar la aplicación web:
-
-<div align="center">
-
-### 🔗 https://venalcentroygana.com/
-
-</div>
-
----
-
-<div align="center">
-
-# 🟠 Qué incluye
-
-<br>
-
-<table>
-<tr>
-<td align="center">
-
-### 🟠
-
-**Pantalla de Inicio**
-
-</td>
-
-<td align="center">
-
-### 🟡
-
-**Registro de participación**
-
-</td>
-
-<td align="center">
-
-### 🟠
-
-**Resultados de la Trivia**
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-# 🟠 Estado del proyecto
-
-### 🟡 Etapa de Prueba de Campo y definición de requisitos.
-
-</div>
-
----
-
-<div align="center">
-
-# 🟠 Documentación
-
-<br>
-
-| 📄 | |
-|:---:|:---|
-| 🟠 | [**Propuesta**](docs/propuesta.md) |
-| 🟡 | [**Requisitos funcionales**](docs/requirements/functional) |
-| 🟠 | [**Requisitos no funcionales**](docs/requirements/non-functional) |
-| 🟡 | [**Diseño (Figma, pantallas y guía de diseño)**](docs/design) |
-| 🟠 | [**Historias de usuario**](docs/user-stories) |
-| 🟡 | [**Diagrama de casos de uso**](docs/UML) |
-| 🟠 | [**Control de cambios de requisitos (segunda entrega)**](docs/requirements/cambios-segunda-entrega.md) |
-| 🟡 | [**Priorización de requisitos**](docs/requirements/priorizacion-requisitos.md) |
-
-</div>
-
----
-
-<div align="center">
-
-# 🟠 Equipo
-
-<br>
-
-### **Hermen Steven Diaz Euan**
-
-### **Jacqueline Alessandra Ac Yam**
-
-### **Adriana Esmeralda Arguelles Pool**
-
-### **Erick Eduardo Bolaños Gonzáles**
-
-### **Manuel Emiliano Canche Pacheco**
-
-### **Andrew Abimael Gonzalez Kantun**
-
-### **Eduardo Alberto Peniche Moreno**
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FFB700&height=100&section=footer&animation=fadeIn" width="100%"/>
-
-</div>
+Proyecto académico sin licencia de uso definida. La marca y los materiales de la campaña *Ven al Centro y Gana* pertenecen a sus titulares.
