@@ -5,7 +5,7 @@
 <br>
 
 <a href="docs/propuesta.md">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=26&duration=2500&pause=1000&color=FF6700&center=true&vCenter=true&repeat=true&width=800&lines=Fundamentos+de+Ingenier%C3%ADa+en+Software+-+entrega+1" alt="Fundamentos de Ingeniería en Software - entrega 1"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=26&duration=2500&pause=1000&color=FF6700&center=true&vCenter=true&repeat=true&width=800&lines=Fundamentos+de+Ingenier%C3%ADa+en+Software+-+entrega+2" alt="Fundamentos de Ingeniería en Software - entrega 2"/>
 </a>
 
 <br>
@@ -22,7 +22,7 @@
 
 <br>
 
-## **Resideño de la aplicación web de Ven al Centro y Gana de CANACO SERVYTUR**
+## **Rediseño de la aplicación web de Ven al Centro y Gana de CANACO SERVYTUR**
 
 <br>
 
