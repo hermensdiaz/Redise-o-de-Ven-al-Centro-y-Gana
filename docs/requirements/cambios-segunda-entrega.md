@@ -8,6 +8,9 @@ Este documento registra, para fines de trazabilidad:
 1. Los **requisitos nuevos** que surgieron del rediseño.
 2. Los **requisitos existentes que se modifican** y su nueva redacción.
 3. Las **discrepancias** entre el diseño y los requisitos que el equipo debe resolver.
+4. La **actualización de las historias de usuario y del diagrama de casos de uso**.
+
+> **Estado:** Todas las modificaciones de la sección 2 ya están aplicadas en los archivos de cada requisito (versión 2.0). Cada archivo incluye al final una tabla **"Historial de cambios"** con la versión anterior y el cambio realizado.
 
 ---
 
@@ -153,4 +156,54 @@ Cada entrada indica qué cambia y la redacción nueva de las secciones afectadas
 | 4 | RF-012 y RF-015 | "Puedes volver a intentarlo con otro ticket" implica que cada intento requiere un ticket nuevo. Las bases deben confirmarlo. | Se le promete algo al usuario sin respaldo. | Confirmarlo con las bases oficiales. |
 | 5 | RF-015 (Figma) | Errata en la pantalla 10b: dice "intenta de nuevo **registrado** otro ticket" y debe decir "**registrando**". | Error de redacción visible. | Corregir el texto en Figma. |
 | 6 | RNF-001 | La métrica está vacía. | Requisito incompleto. | Completar la métrica. |
-| 7 | Historias de usuario | HU-015 usa el botón "Volver a participar", que ya no existe. Ninguna historia cubre RF-016 a RF-021. | Inconsistencia con RF-015 modificado. | Actualizar HU-015 y crear historias para RF-016 a RF-021. |
+| 7 | Historias de usuario | HU-015 usaba el botón "Volver a participar", que ya no existe, y ninguna historia cubría RF-016 a RF-021. | — | **Resuelto:** ver sección 4. |
+| 8 | Diagrama de casos de uso (v1) | Incluía dos casos sin requisito que los respalde: "Brindar el correo electrónico de un conocido" y "Revisar cuál es su correo electrónico". | Funcionalidad documentada sin requisito. | Se retiraron del diagrama v2. Si el equipo los necesita, deben redactarse como RF. |
+
+---
+
+## 4. Historias de usuario y casos de uso
+
+### Historias de usuario
+- **HU-001 a HU-015:** actualizadas a la versión 2.0, con los criterios de aceptación ajustados a la redacción nueva de cada RF. Cada una tiene su tabla de historial de cambios.
+- **HU-016 a HU-021:** historias nuevas, una por cada RF nuevo.
+- El [índice de historias](../user-stories/README.md) suma 22 historias y 60 puntos sugeridos.
+
+| HU nueva | Requisito |
+|---|---|
+| [HU-016](../user-stories/HU-016.md) Confirmar antes de salir del registro | RF-016 |
+| [HU-017](../user-stories/HU-017.md) Buscar mi sucursal | RF-017 |
+| [HU-018](../user-stories/HU-018.md) Revisar y repetir la foto de mi ticket | RF-018 |
+| [HU-019](../user-stories/HU-019.md) Moverme entre las preguntas de la trivia | RF-019 |
+| [HU-020](../user-stories/HU-020.md) Registrar otra compra desde el resultado | RF-020 |
+| [HU-021](../user-stories/HU-021.md) Saber qué datos debo corregir | RF-021 |
+
+### Diagrama de casos de uso
+- Nueva versión 2.0 en [docs/UML](../UML/README.md), en PNG, SVG y fuente PlantUML editable. Los casos de uso nuevos aparecen en naranja.
+- La versión 1.0 (PDF) se conserva como evidencia de la evolución.
+
+### Cambios de título de los requisitos
+Para que cada título describa su función (antes varios se llamaban igual, "Registro de participación" o "Trivia"):
+
+| ID | Título anterior | Título nuevo |
+|---|---|---|
+| RF-002 | Pantalla de inicio | Lista de comercios participantes |
+| RF-003 | Pantalla de inicio | Bases oficiales |
+| RF-004-A | Registro de participación | Ingreso con número telefónico |
+| RF-004-B | Registro de participación | Registro directo como usuario nuevo |
+| RF-005 | Ventana emergente | Ventana emergente de número no registrado |
+| RF-006 | Registro de participación | Registro de datos personales |
+| RF-007 | Registro de participación | Ejemplos en los campos de registro |
+| RF-008 | Registro de participación | Aviso de privacidad |
+| RF-009 | Registro de participación | Selección de sucursal |
+| RF-010 | Registro de participación | Monto de la compra |
+| RF-011 | Registro de participación | Foto del ticket |
+| RF-012 | Pre-trivia | Instrucciones de la trivia |
+| RF-014 | Trivia | Participación confirmada |
+| RF-015 | Trivia | Resultado con respuestas incorrectas |
+
+### Correcciones de errores de redacción encontrados en la versión 1.0
+- **RF-005:** la trazabilidad decía "omite RF-005 y redirige a RF-006"; se corrige a "omite RF-006 y redirige a RF-009".
+- **RF-006, flujo A6:** describía la validación del número en lugar de la del domicilio.
+- **RF-013:** apuntaba a RF-008 y RF-009 como pantallas de resultado; se corrige a RF-014 y RF-015.
+- **RNF-002:** el alcance mencionaba RF-005 en lugar de RF-006.
+- **RF-007:** no tenía métrica; se agrega una métrica propuesta.

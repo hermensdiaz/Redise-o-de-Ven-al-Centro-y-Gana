@@ -1,0 +1,152 @@
+@startuml casos-de-uso-v2
+' Diagrama de casos de uso — Ven al Centro y Gana (segunda entrega)
+' Fuente editable en PlantUML. Para regenerar la imagen:
+'   java -jar plantuml.jar -tsvg casos-de-uso-v2.puml
+top to bottom direction
+skinparam linetype polyline
+skinparam shadowing false
+skinparam defaultFontName "Arial"
+skinparam defaultFontSize 12
+skinparam packageStyle rectangle
+skinparam ArrowColor #4B5563
+skinparam usecase {
+  BackgroundColor #FFFFFF
+  BorderColor #111827
+  BackgroundColor<<nuevo>> #FFE7D1
+  BorderColor<<nuevo>> #FF6A00
+  BorderThickness<<nuevo>> 2
+}
+skinparam package {
+  BorderColor #9CA3AF
+  FontColor #111827
+}
+skinparam note {
+  BackgroundColor #F2F4F8
+  BorderColor #CDD3D9
+}
+
+title Diagrama de casos de uso — Módulo de registro de participantes (v2, segunda entrega)
+
+actor "Concursante" as C
+actor "Servicio de mensajería\n(SMS y correo)" as M
+
+rectangle "Aplicación web «Ven al Centro y Gana»" {
+
+  package "INICIO" {
+    usecase "Ver pantalla de inicio\n(RF-001)" as U1
+    usecase "Consultar comercios\nparticipantes\n(RF-002)" as U2
+    usecase "Consultar bases oficiales\n(RF-003)" as U3
+  }
+
+  package "REGISTRO" {
+    usecase "Ingresar con número\ntelefónico\n(RF-004-A)" as U4A
+    usecase "Registrarme por\nprimera vez\n(RF-004-B)" as U4B
+    usecase "Recibir aviso de número\nno registrado\n(RF-005)" as U5
+    usecase "Ver bienvenida de\nusuario registrado\n(RF-005, A1)" as U5B
+    usecase "Corregir mi número\n(RF-005, A3)" as U5C
+    usecase "Registrar datos\npersonales\n(RF-006)" as U6
+    usecase "Ver ejemplos en\nlos campos\n(RF-007)" as U7
+    usecase "Consultar y aceptar\naviso de privacidad\n(RF-008)" as U8
+  }
+
+  package "DATOS DE LA COMPRA" {
+    usecase "Registrar datos\nde la compra" as UC
+    usecase "Seleccionar sucursal\n(RF-009)" as U9
+    usecase "Buscar sucursal\n(RF-017)" as U17 <<nuevo>>
+    usecase "Ingresar monto\nde la compra\n(RF-010)" as U10
+    usecase "Tomar foto\ndel ticket\n(RF-011)" as U11
+    usecase "Revisar y repetir\nfoto del ticket\n(RF-018)" as U18 <<nuevo>>
+  }
+
+  package "TRIVIA" {
+    usecase "Leer instrucciones\nde la trivia\n(RF-012)" as U12
+    usecase "Responder la trivia\n(RF-013)" as U13
+    usecase "Navegar entre\npreguntas\n(RF-019)" as U19 <<nuevo>>
+  }
+
+  package "CIERRE" {
+    usecase "Ver participación\nconfirmada\n(RF-014)" as U14
+    usecase "Ver resultado con\nrespuestas incorrectas\n(RF-015)" as U15
+    usecase "Registrar otra compra\n(RF-020)" as U20 <<nuevo>>
+    usecase "Finalizar sesión" as UF
+  }
+
+  package "TRANSVERSALES" {
+    usecase "Salir del registro\ncon confirmación\n(RF-016)" as U16 <<nuevo>>
+    usecase "Validar datos y ver\nresumen de errores\n(RF-021)" as U21 <<nuevo>>
+  }
+}
+
+' --- Orden de las etapas de izquierda a derecha (enlaces ocultos)
+
+' --- Asociaciones del actor principal
+C --> U1
+C --> U2
+C --> U3
+C --> U4A
+C --> U4B
+C --> U6
+C --> UC
+C --> U12
+C --> U13
+C --> U16
+
+' --- Inicio
+U1 ..> U4A : <<include>>\n(Comenzar)
+
+' --- Registro
+U5 .up.> U4A : <<extend>>\n[número no registrado]
+U5B .up.> U4A : <<extend>>\n[número registrado]
+U5C .up.> U5 : <<extend>>\n[número mal escrito]
+U4B ..> U6 : <<include>>
+U5 ..> U6 : <<include>>\n(Registrar mis datos)
+U6 ..> U7 : <<include>>
+U6 ..> U8 : <<include>>
+U4A ..> U21 : <<include>>
+U6 ..> U21 : <<include>>
+
+' --- Datos de la compra
+UC ..> U9 : <<include>>
+UC ..> U10 : <<include>>
+UC ..> U11 : <<include>>
+UC ..> U21 : <<include>>
+U9 ..> U17 : <<include>>
+U2 .up.> U17 : <<extend>>\n[no encuentra su sucursal]
+U11 ..> U18 : <<include>>
+
+' --- Trivia
+U13 ..> U19 : <<include>>
+
+' --- Cierre
+U14 .up.> U13 : <<extend>>\n[3 de 3 correctas]
+U15 .up.> U13 : <<extend>>\n[al menos una incorrecta]
+U20 .up.> U14 : <<extend>>
+U20 .up.> U15 : <<extend>>
+UF .up.> U14 : <<extend>>
+UF .up.> U15 : <<extend>>
+U20 ..> U4A : <<include>>
+U14 -- M
+
+note bottom of U1
+  Precondiciones: ingresar a la URL
+  o escanear el QR de la campaña
+  y tener conexión a internet.
+end note
+
+note bottom of U14
+  El folio se envía por SMS y correo;
+  no se muestra en pantalla.
+end note
+
+note bottom of U16
+  Aplica a todas las pantallas del
+  registro que muestran el ícono de inicio.
+end note
+
+legend right
+  |= Color |= Significado |
+  |<#FFE7D1> | Caso de uso nuevo (segunda entrega, RF-016 a RF-021) |
+  |<#FFFFFF> | Caso de uso existente (actualizado a la versión 2.0) |
+endlegend
+
+@enduml
