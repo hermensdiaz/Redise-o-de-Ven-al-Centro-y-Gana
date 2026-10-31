@@ -109,6 +109,7 @@ Los concursantes de la dinámica **Ven al Centro y Gana** de CANACO SERVYTUR tie
 | 🟠 | [**Historias de usuario**](docs/user-stories) |
 | 🟡 | [**Diagrama de casos de uso**](docs/UML) |
 | 🟠 | [**Control de cambios de requisitos (segunda entrega)**](docs/requirements/cambios-segunda-entrega.md) |
+| 🟡 | [**Priorización de requisitos**](docs/requirements/priorizacion-requisitos.md) |
 
 </div>
 
