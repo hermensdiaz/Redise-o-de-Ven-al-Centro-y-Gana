@@ -15,7 +15,7 @@ Se usa el método **MoSCoW**:
 | **Debe** (*Must*) | Sin este requisito, el concursante no puede completar su participación, o el sistema incumple una obligación legal. | Indispensable para la primera versión funcional. |
 | **Debería** (*Should*) | Mejora de forma importante la usabilidad o atiende un problema observado en campo, pero existe una alternativa temporal. | Se incluye si no compromete a los requisitos "Debe". |
 | **Podría** (*Could*) | Aporta comodidad o consistencia; su ausencia no bloquea ni confunde al concursante. | Se incluye si queda capacidad en el sprint. |
-| **No en esta entrega** (*Won't*) | Fuera del alcance acordado. | Se documenta para entregas futuras. |
+
 
 ### Criterios de evaluación
 Cada requisito se evaluó según cinco criterios:
@@ -76,12 +76,7 @@ El orden dentro de cada nivel sigue el flujo del concursante y sus dependencias:
 
 **Subtotal:** 2 requisitos · 5 puntos.
 
-### ⚪ No en esta entrega (Won't)
 
-| Elemento | Motivo |
-|---|---|
-| Mostrar el folio en la pantalla de confirmación | Requiere modificar el backend (decisión del equipo; ver RF-014). El folio se envía por SMS y correo. |
-| "Brindar el correo de un conocido" y "Revisar cuál es su correo" | Aparecían en el diagrama de casos de uso v1, pero no tienen un requisito que los respalde. |
 
 ---
 
@@ -122,5 +117,3 @@ El orden dentro de cada nivel sigue el flujo del concursante y sus dependencias:
 | 🟠 Debería | 8 | 5 | 13 |
 | 🟡 Podría | 2 | 3 | 5 |
 | **Total** | **22** | **12** | **60** |
-
-> **Pendiente:** validar esta priorización con el cliente (CANACO SERVYTUR), sobre todo la ubicación de RF-003 (bases oficiales). Si el cliente considera obligatorio el acceso a las bases desde el lanzamiento, sube a "Debe".
