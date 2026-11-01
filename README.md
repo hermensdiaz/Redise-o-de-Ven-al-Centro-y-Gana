@@ -71,7 +71,7 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 | [Requisitos funcionales](docs/requirements/functional) | RF-001 a RF-021 |
 | [Requisitos no funcionales](docs/requirements/non-functional) | RNF-001 a RNF-012 |
 | [Priorización de requisitos](docs/requirements/priorizacion-requisitos.md) | Priorización MoSCoW y orden de implementación |
-| [Control de cambios de requisitos](docs/requirements/cambios-segunda-entrega.md) | Requisitos nuevos, modificados y discrepancias de la segunda entrega |
+| [Control de cambios de requisitos](docs/requirements/cambios-segunda-entrega.md) | Requisitos nuevos y modificados en la segunda entrega |
 | [Historias de usuario](docs/user-stories) | HU-001 a HU-021, con criterios de aceptación |
 | [Diagrama de casos de uso](docs/UML) | Versión 2.0 (PlantUML) y versión 1.0 (PDF) |
 | [Diseño de interfaces](docs/design) | Enlace al prototipo en Figma, pantallas y guía de diseño |

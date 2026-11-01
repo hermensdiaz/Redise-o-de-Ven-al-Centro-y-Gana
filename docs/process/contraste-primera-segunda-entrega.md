@@ -20,7 +20,7 @@ Este documento compara el estado del proyecto al cierre de cada entrega: qué se
 | Historias de usuario | No había | 22 (HU-001 a HU-021, con HU-004-A y HU-004-B), con criterios de aceptación |
 | Diagrama de casos de uso | Versión 1.0 en PDF | Versión 2.0 en PlantUML, PNG y SVG (la v1 se conserva) |
 | Priorización de requisitos | No había | Priorización MoSCoW y orden de implementación |
-| Control de cambios | No había | Registro de requisitos nuevos, modificados y discrepancias |
+| Control de cambios | No había | Registro de requisitos nuevos y modificados |
 | Diseño de interfaces | No había | Prototipo en Figma (v2), guía de diseño y 17 capturas de pantallas |
 | Validación con el cliente | No se realizó | Diseño aprobado por el cliente |
 | Feedback del revisor | No se documentó | [Comentarios y feedback](../comentarios-y-feedback/feedback-cesar-rodriguez.md) de César Rodríguez, con las correcciones enlazadas |
