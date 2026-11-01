@@ -156,6 +156,21 @@ Ejemplo: `docs(requirements): agregar priorización de requisitos con MoSCoW`
 
 **Cliente:** CANACO SERVYTUR Mérida.
 
+### Participación individual (segunda entrega)
+
+Tareas asignadas desde el issue [#38](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/38) "Arreglar requisitos" (19 de octubre de 2026) a la fecha. El detalle está en la [métrica de contribución individual](docs/process/metricas.md).
+
+| Integrante | % de participación |
+| :--- | :---: |
+| Hermen Steven Diaz Euan | 16.67 % |
+| Erick Eduardo Bolaños Gonzáles | 16.67 % |
+| Andrew Abimael Gonzalez Kantun | 16.67 % |
+| Manuel Emiliano Canche Pacheco | 16.67 % |
+| Eduardo Alberto Peniche Moreno | 16.67 % |
+| Jacqueline Alessandra Ac Yam | 16.67 % |
+| Adriana Esmeralda Arguelles Pool | 0 % |
+| **Total** | **100 %** |
+
 ## Licencia
 
 Proyecto académico sin licencia de uso definida. La marca y los materiales de la campaña *Ven al Centro y Gana* pertenecen a sus titulares.

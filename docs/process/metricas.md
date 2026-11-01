@@ -22,17 +22,19 @@ Cada integrante se mide sobre un 100%, con respecto a las contribuciones que le 
 
 ## Segunda entrega
 
-En la segunda entrega, el total de la participación (100 %) se divide entre los colaboradores del repositorio. Adriana no tuvo participación en esta entrega, por lo que su porcentaje es 0 %; el 100 % se reparte en partes iguales entre los otros 6 integrantes (100 % ÷ 6 ≈ 16.67 %).
+**Periodo medido:** del 19 de octubre de 2026 (issue [#38](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/38) "Arreglar requisitos") a la fecha. Solo se toman en cuenta las tareas asignadas en este periodo; las de la primera entrega (hace más de 27 días) no cuentan.
 
-| Integrante | % de participación |
-| :--- | :---: |
-| Hermen Steven Diaz Euan | 16.67 % |
-| Erick Eduardo Bolaños Gonzáles | 16.67 % |
-| Andrew Abimael Gonzalez Kantun | 16.67 % |
-| Manuel Emiliano Canche Pacheco | 16.67 % |
-| Eduardo Alberto Peniche Moreno | 16.67 % |
-| Jacqueline Alessandra Ac Yam | 16.67 % |
-| Adriana Esmeralda Arguelles Pool | 0 % |
-| **Total** | **100 %** |
+**Método:** el total de la participación (100 %) se divide entre los colaboradores del repositorio. Adriana no tuvo tareas asignadas en el periodo, por lo que su porcentaje es 0 %; el 100 % se reparte en partes iguales entre los otros 6 integrantes (100 % ÷ 6 ≈ 16.67 %). Todos ellos resolvieron el 100 % de las tareas que se les asignaron. La columna "Issues resueltos" es el respaldo cuantitativo.
 
-> Los porcentajes están redondeados a dos decimales; el valor exacto de cada integrante es 100/6 % (16.666… %).
+| Integrante | Tareas asignadas (issues) | Issues resueltos | % de participación |
+| :--- | :--- | :---: | :---: |
+| Hermen Steven Diaz Euan | Corregir los RF-001, RF-004, RF-008, RF-009, RF-013 y RF-015 ([#41](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/41))<br>Correcciones en Figma de RF-006 a RF-008 ([#50](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/50)) | 2 | 16.67 % |
+| Erick Eduardo Bolaños Gonzáles | Arreglar requisitos ([#38](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/38))<br>Correcciones en Figma de RF-001 a RF-003 ([#45](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/45)) | 2 | 16.67 % |
+| Andrew Abimael Gonzalez Kantun | Correcciones en Figma de RF-014 ([#54](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/54)) y RF-015 ([#55](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/55)) | 2 | 16.67 % |
+| Manuel Emiliano Canche Pacheco | Correcciones en Figma de RF-004-A y RF-004-B ([#48](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/48)) y RF-005 ([#49](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/49)) | 2 | 16.67 % |
+| Eduardo Alberto Peniche Moreno | Correcciones en Figma de RF-012 ([#52](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/52)) y RF-013 ([#53](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/53)) | 2 | 16.67 % |
+| Jacqueline Alessandra Ac Yam | Correcciones en Figma de RF-009 a RF-011 ([#51](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/51)) | 1 | 16.67 % |
+| Adriana Esmeralda Arguelles Pool | Sin tareas asignadas en el periodo | 0 | 0 % |
+| **Total** | | **11** | **100 %** |
+
+> Los porcentajes están redondeados a dos decimales; el valor exacto es 100/6 % (16.666… %). Los issues [#61](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/61) (grabar el vídeo) y [#62](https://github.com/hermensdiaz/Redise-o-de-Ven-al-Centro-y-Gana/issues/62) (editar el vídeo) no tienen responsable asignado, por lo que no se contabilizan.
