@@ -50,8 +50,6 @@ En la primera entrega, los requisitos tenían problemas de forma y de contenido 
 - Primera entrega: "La página debe mostrar las 3 preguntas, registrando cuánto es la tasa de éxito de las personas que registran sus tickets."
 - Segunda entrega: "Al menos el 95 % de los concursantes que inician la trivia debe responder las 3 preguntas y presionar 'Terminar trivia' sin abandonar la pantalla."
 
-Aún quedan algunos ajustes de redacción pendientes ("lograr", "debe/puede"); están en el [to do de la segunda entrega](to-do-segunda-entrega.md).
-
 ---
 
 ## 3. Organización del repositorio

@@ -21,15 +21,15 @@ Este documento concentra las observaciones que nos dio César Rodríguez durante
 | 1 | Cambiar "Cliente" por "Usuario" en Actores | Todos los RF | ✅ |
 | 2 | Separar cada punto del Flujo principal | Todos los RF | ✅ |
 | 3 | La métrica es un dato certero | RF-001 | ✅ |
-| 4 | No usar la palabra "lograr" | RF-001, RF-009, RF-015 | 🟡 |
+| 4 | No usar la palabra "lograr" | RF-001, RF-009, RF-015 | ✅ |
 | 5 | Cambiar "Ingresar un dato incorrecto" por "Si ingresa una letra…" | RF-004 | ✅ |
 | 6 | Ortografía: "Encale" | RF-008 | ✅ |
-| 7 | Argumentar la métrica con un *health check* | RF-008 | 🟡 |
+| 7 | Argumentar la métrica con un *health check* | RF-008 | ✅ |
 | 8 | Falta la métrica | RF-009 | ✅ |
-| 9 | Usar "El sistema va a permitir…" | Todos los RF | 🟡 |
+| 9 | Usar "El sistema va a permitir…" | Todos los RF | ✅ |
 | 10 | Ortografía: "Verification si el monto es correcto" | RF-010 | ✅ |
 | 11 | La métrica debe ser cuantitativa | RF-013 | ✅ |
-| 12 | No usar "puede" o "debe"; usar afirmaciones | Todos los RF | 🟡 |
+| 12 | No usar "puede" o "debe"; usar afirmaciones | Todos los RF | ✅ |
 | 13 | Quitar la tabla | RF-014 | ✅ |
 | 14 | Problema del "clic accidental" (comentario positivo) | RF-016, RNF-003 | ✅ |
 | 15 | Pantalla principal más compacta (comentario positivo) | RF-001 | ✅ |
