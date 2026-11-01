@@ -110,17 +110,8 @@ Detalle en [Comentarios y feedback](../comentarios-y-feedback/feedback-cesar-rod
 - [ ] Reemplazar "debe" y "puede" por afirmaciones en RF-004-A, RF-007, RF-008, RF-009, RF-010, RF-013 y RF-015.
 - [ ] Iniciar RF-007 y RF-008 con "El sistema permite…".
 
-### 3.2 Discrepancias del rediseño
-Detalle en el [control de cambios](../requirements/cambios-segunda-entrega.md), sección 3.
 
-- [ ] RNF-005: alinear la paleta de colores del requisito con la del diseño.
-- [ ] RNF-005: corregir el contraste del texto blanco sobre naranja y amarillo (mínimo 4.5:1).
-- [ ] RF-012: confirmar con CANACO SERVYTUR y con las bases que "No hay límite de tiempo".
-- [ ] RF-012 y RF-015: confirmar en las bases que cada intento requiere un ticket nuevo.
-- [ ] RF-015 (Figma): corregir "registrado" por "registrando" en la pantalla 10b.
-- [ ] RNF-001: completar la métrica.
-
-### 3.3 Proceso
+### 3.2 Proceso
 - [ ] Documentar la evidencia de la validación del diseño con el cliente.
 - [ ] Asignar responsables a los issues #61 y #62.
 - [ ] Integrar `segunda-entrega` a `main` mediante pull request al cerrar la entrega.
