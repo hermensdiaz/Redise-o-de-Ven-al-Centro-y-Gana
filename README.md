@@ -75,7 +75,7 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 | [Historias de usuario](docs/user-stories) | HU-001 a HU-021, con criterios de aceptación |
 | [Diagrama de casos de uso](docs/UML) | Versión 2.0 (PlantUML) y versión 1.0 (PDF) |
 | [Diseño de interfaces](docs/design) | Enlace al prototipo en Figma, pantallas y guía de diseño |
-| [Proceso](docs/process) | Metodología, evidencias y métrica de contribución individual |
+| [Proceso](docs/process) | Evidencias, métrica de contribución individual, [contraste entre entregas](docs/process/contraste-primera-segunda-entrega.md) y [to do de la segunda entrega](docs/process/to-do-segunda-entrega.md) |
 | [Competencias](docs/competencies) | Competencias genéricas y específicas |
 | [Comentarios y feedback](docs/comentarios-y-feedback/feedback-cesar-rodriguez.md) | Observaciones del revisor y correcciones aplicadas |
 | [Registro de prompts](docs/prompts) | Prompts dados al agente de IA y el resultado de cada uno |
@@ -101,7 +101,7 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 │   │   ├── screens/                  # Capturas de las pantallas del prototipo
 │   │   ├── design-guide.md           # Guía de diseño (colores, tipografía, componentes)
 │   │   └── screens.md                # Flujo y matriz de pantallas
-│   ├── process/                      # Evidencias, pendientes y métrica de contribución individual
+│   ├── process/                      # Evidencias, métricas, contraste entre entregas y to do
 │   ├── prompts/                      # Registro de prompts dados al agente de IA
 │   ├── requirements/
 │   │   ├── functional/               # RF-001 a RF-021
