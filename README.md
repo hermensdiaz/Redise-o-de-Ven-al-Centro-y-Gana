@@ -60,8 +60,8 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 | Historias de usuario (HU-001 a HU-021) | Versión 2.0 |
 | Diagrama de casos de uso | Versión 2.0 |
 | Prototipo de interfaces en Figma | Versión 2.0 |
-| Validación del diseño con el cliente | Aprobada por el cliente (falta documentar la evidencia) |
-| Implementación | No iniciada |
+| Validación del diseño con el cliente | Aprobada por César |
+| Implementación | Hecha |
 
 ## Documentación
 
