@@ -138,10 +138,3 @@ flowchart TD
 | Pendientes de la versión 1 | Sin flecha en el inicio, sin vista previa de la foto | Resueltos |
 
 ---
-
-## Pendientes del diseño
-
-- [ ] Corregir la errata de la pantalla 10b: "regist**rado** otro ticket" → "regist**rando** otro ticket".
-- [ ] Ajustar el contraste del texto blanco sobre los botones naranjas y amarillos (RNF-005; ver [guía de diseño](design-guide.md), sección 2.3).
-- [ ] Enlazar las pantallas en Figma como prototipo navegable, para la simulación de tarea con el cliente.
-- [ ] Validar el diseño con CANACO SERVYTUR y registrar sus comentarios.
