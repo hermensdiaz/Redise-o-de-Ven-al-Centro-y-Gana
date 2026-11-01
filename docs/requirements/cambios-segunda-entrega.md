@@ -7,8 +7,7 @@
 Este documento registra, para fines de trazabilidad:
 1. Los **requisitos nuevos** que surgieron del rediseño.
 2. Los **requisitos existentes que se modifican** y su nueva redacción.
-3. Las **discrepancias** entre el diseño y los requisitos que el equipo debe resolver.
-4. La **actualización de las historias de usuario y del diagrama de casos de uso**.
+3. La **actualización de las historias de usuario y del diagrama de casos de uso**.
 
 > **Estado:** Todas las modificaciones de la sección 2 ya están aplicadas en los archivos de cada requisito (versión 2.0). Cada archivo incluye al final una tabla **"Historial de cambios"** con la versión anterior y el cambio realizado.
 
@@ -144,24 +143,8 @@ Cada entrada indica qué cambia y la redacción nueva de las secciones afectadas
 - **Alcance:** La trivia corresponde al **Paso 3 de 4** (el paso 4 es el resultado). Hoy el texto dice "Paso 4 de 4", lo que contradice RF-012.
 - **Estructura y presentación visual:** Cada opción es una tarjeta blanca con borde amarillo suave (#FDE49A) de 2 px. Al seleccionarla, el borde cambia a naranja (#FF6A00) de 3 px y el indicador circular se rellena de naranja.
 
----
 
-## 3. Discrepancias que el equipo debe resolver
-
-| # | Requisito | Discrepancia | Riesgo | Opciones |
-|---|---|---|---|---|
-| 1 | RNF-005 | La paleta del requisito (#F25A24 / #FF6B00 naranja, #FFC107 / #F8A81D amarillo, #1E2B58 azul marino en títulos) no coincide con el diseño (#FF6A00, #FB9410, #FFBB0B, títulos en #111827, sin azul marino). | El requisito no se cumple tal como está escrito. | Actualizar el RNF a la paleta del diseño, o ajustar el diseño. |
-| 2 | RNF-005 | El criterio exige contraste de 4.5:1, pero el texto blanco sobre naranja #FF6A00 da 2.87:1, y sobre amarillo #FFBB0B, 1.70:1 (botones "Comenzar", "Entendido", header y botones principales). | **Incumplimiento de un criterio de aceptación de accesibilidad.** | Cambiar el color del texto o del fondo de esos botones (ver la guía de diseño, sección 2.3). Bajar el criterio no se recomienda. |
-| 3 | RF-012 | El texto "No hay límite de tiempo" es una regla de la dinámica que no aparece en ningún requisito ni en las bases. | Se le promete algo al usuario sin respaldo. | Confirmarlo con CANACO SERVYTUR y con las bases oficiales, o quitar la frase. |
-| 4 | RF-012 y RF-015 | "Puedes volver a intentarlo con otro ticket" implica que cada intento requiere un ticket nuevo. Las bases deben confirmarlo. | Se le promete algo al usuario sin respaldo. | Confirmarlo con las bases oficiales. |
-| 5 | RF-015 (Figma) | Errata en la pantalla 10b: dice "intenta de nuevo **registrado** otro ticket" y debe decir "**registrando**". | Error de redacción visible. | Corregir el texto en Figma. |
-| 6 | RNF-001 | La métrica está vacía. | Requisito incompleto. | Completar la métrica. |
-| 7 | Historias de usuario | HU-015 usaba el botón "Volver a participar", que ya no existe, y ninguna historia cubría RF-016 a RF-021. | — | **Resuelto:** ver sección 4. |
-| 8 | Diagrama de casos de uso (v1) | Incluía dos casos sin requisito que los respalde: "Brindar el correo electrónico de un conocido" y "Revisar cuál es su correo electrónico". | Funcionalidad documentada sin requisito. | Se retiraron del diagrama v2. Si el equipo los necesita, deben redactarse como RF. |
-
----
-
-## 4. Historias de usuario y casos de uso
+## 3. Historias de usuario y casos de uso
 
 ### Historias de usuario
 - **HU-001 a HU-015:** actualizadas a la versión 2.0, con los criterios de aceptación ajustados a la redacción nueva de cada RF. Cada una tiene su tabla de historial de cambios.
