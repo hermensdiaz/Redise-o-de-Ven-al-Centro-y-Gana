@@ -77,6 +77,7 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 | [Diseño de interfaces](docs/design) | Enlace al prototipo en Figma, pantallas y guía de diseño |
 | [Proceso](docs/process) | Metodología, evidencias y métrica de contribución individual |
 | [Competencias](docs/competencies) | Competencias genéricas y específicas |
+| [Comentarios y feedback](docs/comentarios-y-feedback/feedback-cesar-rodriguez.md) | Observaciones del revisor y correcciones aplicadas |
 | [Referencias](docs/bibliography/Referencias.md) | Bibliografía consultada |
 | [Video](docs/video) | Enlace al video de la entrega |
 
@@ -85,26 +86,36 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 ```
 .
 ├── .github/
-│   ├── ISSUE_TEMPLATE/       # Plantilla de issues para tareas
-│   ├── workflows/            # Revisión automática de pull requests
+│   ├── ISSUE_TEMPLATE/               # Plantilla de issues para tareas
+│   ├── workflows/                    # Revisión automática de marcadores de conflicto
 │   └── pull_request_template.md
 ├── docs/
-│   ├── UML/                  # Diagrama de casos de uso
-│   ├── bibliography/         # Referencias
-│   ├── competencies/         # Competencias genéricas y específicas
-│   ├── design/               # Prototipo, pantallas y guía de diseño
-│   ├── process/              # Metodología, evidencias y métricas
+│   ├── UML/                          # Diagrama de casos de uso v2 (PlantUML, PNG, SVG) y v1 (PDF)
+│   ├── bibliography/                 # Referencias
+│   ├── comentarios-y-feedback/       # Feedback del revisor y correcciones aplicadas
+│   ├── competencies/
+│   │   ├── generic-competencies/     # Competencias genéricas
+│   │   └── specific-competencies/    # Competencias específicas
+│   ├── design/
+│   │   ├── screens/                  # Capturas de las pantallas del prototipo
+│   │   ├── design-guide.md           # Guía de diseño (colores, tipografía, componentes)
+│   │   └── screens.md                # Flujo y matriz de pantallas
+│   ├── process/                      # Evidencias, pendientes y métrica de contribución individual
 │   ├── requirements/
-│   │   ├── functional/       # RF-001 a RF-021
-│   │   └── non-functional/   # RNF-001 a RNF-012
-│   ├── user-stories/         # HU-001 a HU-021
-│   ├── video/                # Enlace al video
-│   └── propuesta.md
+│   │   ├── functional/               # RF-001 a RF-021
+│   │   ├── non-functional/           # RNF-001 a RNF-012
+│   │   ├── cambios-segunda-entrega.md   # Control de cambios de requisitos
+│   │   └── priorizacion-requisitos.md   # Priorización MoSCoW
+│   ├── user-stories/                 # HU-001 a HU-021
+│   ├── video/                        # Enlace al video
+│   └── propuesta.md                  # Problemática, solución y alcance
 ├── process/
-│   ├── agreements/           # Acuerdos del equipo (ACU-###)
-│   ├── logs/                 # Bitácoras de reuniones
-│   └── tasks/                # Tareas activas y completadas (TAR-###)
-├── templates/                # Plantillas de acuerdo, bitácora y tarea
+│   ├── agreements/                   # Acuerdos del equipo (ACU-###)
+│   ├── logs/                         # Bitácoras de reuniones
+│   └── tasks/
+│       ├── active/                   # Tareas en curso (TAR-###)
+│       └── completed/                # Tareas terminadas
+├── templates/                        # Plantillas de acuerdo, bitácora y tarea
 └── README.md
 ```
 
