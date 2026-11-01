@@ -42,7 +42,6 @@ También aprendimos los **límites prácticos** de la herramienta: los límites 
 **Cómo se promovió:**
 - **Priorización con criterios explícitos:** se clasificaron los 22 requisitos funcionales y los 12 no funcionales con el método MoSCoW, según cinco criterios: objetivo del producto, evidencia de campo, obligación legal, dependencias y esfuerzo.
 - **Decisiones de alcance:** se decidió no mostrar el folio en pantalla (RF-014) para no modificar el backend, y se documentó el motivo.
-- **Registro de discrepancias:** en lugar de ocultar los problemas, se documentaron las discrepancias entre el diseño y los requisitos (contraste de RNF-005, reglas de la trivia sin confirmar en las bases) para resolverlas con el cliente.
 
 **Evidencia:** [Priorización de requisitos](../../requirements/priorizacion-requisitos.md) · [Control de cambios, sección 3](../../requirements/cambios-segunda-entrega.md).
 
