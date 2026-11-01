@@ -8,7 +8,7 @@ Cada integrante se mide sobre un 100%, con respecto a las contribuciones que le 
 
 **Issues Resueltos:** número de issues en el repositorio asociados a esa persona como un respaldo cuantitativo.
 
-## Entrega
+## Primera entrega
 
 | Integrante | Contribución(es) asignadas | Contribución(es) completadas | % de contribución | Issues resueltos |
 | :--- | :--- | :--- | :--- | :--- |
@@ -19,3 +19,20 @@ Cada integrante se mide sobre un 100%, con respecto a las contribuciones que le 
 | Eduardo | - Realizar requisitos no funcionales (RNF) RNF-001 a RNF-002.<br>- Realizar la presentación. | - Realizar requisitos no funcionales (RNF) RNF-001 a RNF-002.<br>- Realizar la presentación. | 100% | 3 |
 | Alessandra | - Realizar requisitos funcionales (RF) RF-007 a RF-008.<br>- Realizar la presentación. | - Realizar requisitos funcionales (RF) RF-007 a RF-008.<br>- Realizar la presentación. | 100% | 3 |
 | Adriana | - Realizar diagrama de casos de uso.<br>- Realizar las métricas individuales. | - Realizar diagrama de casos de uso.<br>- Realizar las métricas individuales. | 100% | 2 |
+
+## Segunda entrega
+
+En la segunda entrega, el total de la participación (100 %) se divide entre los colaboradores del repositorio. Adriana no tuvo participación en esta entrega, por lo que su porcentaje es 0 %; el 100 % se reparte en partes iguales entre los otros 6 integrantes (100 % ÷ 6 ≈ 16.67 %).
+
+| Integrante | % de participación |
+| :--- | :---: |
+| Hermen Steven Diaz Euan | 16.67 % |
+| Erick Eduardo Bolaños Gonzáles | 16.67 % |
+| Andrew Abimael Gonzalez Kantun | 16.67 % |
+| Manuel Emiliano Canche Pacheco | 16.67 % |
+| Eduardo Alberto Peniche Moreno | 16.67 % |
+| Jacqueline Alessandra Ac Yam | 16.67 % |
+| Adriana Esmeralda Arguelles Pool | 0 % |
+| **Total** | **100 %** |
+
+> Los porcentajes están redondeados a dos decimales; el valor exacto de cada integrante es 100/6 % (16.666… %).

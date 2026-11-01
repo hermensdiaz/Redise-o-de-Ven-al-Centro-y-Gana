@@ -146,13 +146,13 @@ Ejemplo: `docs(requirements): agregar priorización de requisitos con MoSCoW`
 
 | Integrante | Rol |
 |---|---|
-| Hermen Steven Diaz Euan | Líder del proyecto |
+| Hermen Steven Diaz Euan | Líder del proyecto · Orquestador de agentes de IA |
 | Jacqueline Alessandra Ac Yam | Integrante |
 | Adriana Esmeralda Arguelles Pool | Integrante |
-| Erick Eduardo Bolaños Gonzáles | Integrante |
+| Erick Eduardo Bolaños Gonzáles | Integrante · AI Manager |
 | Manuel Emiliano Canche Pacheco | Integrante |
 | Andrew Abimael Gonzalez Kantun | Integrante |
-| Eduardo Alberto Peniche Moreno | Integrante |
+| Eduardo Alberto Peniche Moreno | Integrante · Chief of Agents |
 
 **Cliente:** CANACO SERVYTUR Mérida.
 
