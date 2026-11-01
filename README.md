@@ -78,6 +78,7 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 | [Proceso](docs/process) | Metodología, evidencias y métrica de contribución individual |
 | [Competencias](docs/competencies) | Competencias genéricas y específicas |
 | [Comentarios y feedback](docs/comentarios-y-feedback/feedback-cesar-rodriguez.md) | Observaciones del revisor y correcciones aplicadas |
+| [Registro de prompts](docs/prompts) | Prompts dados al agente de IA y el resultado de cada uno |
 | [Referencias](docs/bibliography/Referencias.md) | Bibliografía consultada |
 | [Video](docs/video) | Enlace al video de la entrega |
 
@@ -101,6 +102,7 @@ El rediseño cubre el **Módulo de registro de participantes**, en 4 etapas:
 │   │   ├── design-guide.md           # Guía de diseño (colores, tipografía, componentes)
 │   │   └── screens.md                # Flujo y matriz de pantallas
 │   ├── process/                      # Evidencias, pendientes y métrica de contribución individual
+│   ├── prompts/                      # Registro de prompts dados al agente de IA
 │   ├── requirements/
 │   │   ├── functional/               # RF-001 a RF-021
 │   │   ├── non-functional/           # RNF-001 a RNF-012
